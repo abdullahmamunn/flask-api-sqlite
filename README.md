@@ -5,6 +5,9 @@
 I have tried to make standard folder structure for every sections creating CRUD.
 
 
+Features--> Authentication, and CRUD functionalities.
+
+
 #Two Models 
 
 
