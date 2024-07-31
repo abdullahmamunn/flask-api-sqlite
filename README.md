@@ -1,55 +1,65 @@
-...Flask Api with Sqlite... 
+# ...Flask Api with Sqlite... 
 
 
 
 I have tried to make standard folder structure for every sections creating CRUD.
 
 
-Features--> Authentication, and CRUD functionalities.
+## Features
++ Authentication and CRUD functionalities.
 
 
-#Two Models 
-
-
---> Item
-
-
---> Expense
++ Two Models 
+   - Item
+   - Expense
 
 
 API Routes are
 
-POST Create an item
-http://127.0.0.1:5000/items
+POST 
+```
+Create an item http://127.0.0.1:5000/items
+```
 
 
 Body
+```
 {
   "name": "Al Mamun",
   "description": "A Sr software Engineer"
 }
+```
 
 
-GET Read All Items
-http://127.0.0.1:5000/items
+GET 
+ ```
+http://127.0.0.1:5000/items   //Read All Items
+ ```
 
 
-GET get a single Item
-http://127.0.0.1:5000/items/2
+GET
+```
+http://127.0.0.1:5000/items/2    //get a single Item
+```
 
-
-PUT Update an Item
-http://127.0.0.1:5000/items/2
+PUT
+```
+http://127.0.0.1:5000/items/2 // Update an Item
+```
 
 
 Body
+```
 {
   "name": "Al Mamun",
   "description": "A software Engineer"
 }
+```
 
 
-DELETE Delete an Item
-http://127.0.0.1:5000/items/3
+DELETE 
+```
+http://127.0.0.1:5000/items/3 //Delete an Item
+```
 
 
